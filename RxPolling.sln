@@ -1,8 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{239091E1-8FB9-4DAB-B689-C9501723D55E}"
+	ProjectSection(SolutionItems) = preProject
+		cliSettings.json = cliSettings.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{466816C2-53B7-476B-8C25-DAFECB5FFB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxPolling.Api", "src\RxPolling.Api\RxPolling.Api.csproj", "{0881CE20-4314-438A-B7F2-3D2CC103F787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +23,25 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3953C947-3272-43E8-A26F-D9EDAC6F2A3A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Debug|x64.Build.0 = Debug|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Debug|x86.Build.0 = Debug|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Release|x64.ActiveCfg = Release|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Release|x64.Build.0 = Release|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Release|x86.ActiveCfg = Release|Any CPU
+		{0881CE20-4314-438A-B7F2-3D2CC103F787}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0881CE20-4314-438A-B7F2-3D2CC103F787} = {466816C2-53B7-476B-8C25-DAFECB5FFB11}
 	EndGlobalSection
 EndGlobal
